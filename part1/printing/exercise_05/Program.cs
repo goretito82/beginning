@@ -8,7 +8,8 @@ namespace exercise_05
         {
             string name = "Ada Lovelace";
             // Write your code here:
-            
+            string greeting = "hello " ;
+            Console.WriteLine(greeting + name);
         }
     }
 }

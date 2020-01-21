@@ -7,7 +7,14 @@ namespace exercise_12
     public static void Main(string[] args)
     {
       // Write your code here:
-
+      Console.Write("Give integer value: ");
+      string userInput = Console.ReadLine();
+      int intValue = Convert.ToInt32 (userInput );
+      Console.WriteLine("You gave " + intValue);
+      Console.Write("Give double value: ");  
+      userInput  = Console.ReadLine();
+      double doubleValue = Convert.ToDouble(userInput );
+      Console.WriteLine("You gave " + doubleValue);
     }
   }
 }

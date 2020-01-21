@@ -11,10 +11,10 @@ namespace exercise_12
       string userInput = Console.ReadLine();
       int intValue = Convert.ToInt32 (userInput );
       Console.WriteLine("You gave " + intValue);
-      Console.Write("Give double value: ");  
+      Console.Write("Give integer value: ");  
       userInput  = Console.ReadLine();
-      double doubleValue = Convert.ToDouble(userInput );
-      Console.WriteLine("You gave " + doubleValue);
+      int intValue = Convert.ToInt32 (userInput );
+      Console.WriteLine("You gave " + intValue);
     }
   }
 }

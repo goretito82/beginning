@@ -6,15 +6,15 @@ namespace exercise_12
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
-      Console.Write("Give integer value: ");
-      string userInput = Console.ReadLine();
-      int intValue = Convert.ToInt32 (userInput );
-      Console.WriteLine("You gave " + intValue);
-      Console.Write("Give integer value: ");  
-      userInput  = Console.ReadLine();
-      int intValue = Convert.ToInt32 (userInput );
-      Console.WriteLine("You gave " + intValue);
+   Console.Write("Give integer value: ");
+
+// Declare and assign the input as string
+string userInput = Console.ReadLine();
+
+// Convert string to integer type
+int intValue = Convert.ToInt32(userInput);
+
+Console.WriteLine("You gave " + intValue);
     }
   }
 }

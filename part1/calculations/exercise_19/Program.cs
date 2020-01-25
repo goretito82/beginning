@@ -24,10 +24,7 @@ namespace exercise_19
             // Convert string to integer type
             int intValue2 = Convert.ToInt32(userInput2);
 
-            
-
-            
-            Console.WriteLine("sum is " + userInput + "+" + userInput2);
+           Console.WriteLine("sum is " + userInput + "+" + userInput2);
 
             Console.Write(intvalue + intValue2);
            

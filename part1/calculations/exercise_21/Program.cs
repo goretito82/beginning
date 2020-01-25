@@ -7,15 +7,14 @@ namespace exercise_21
         public static void Main(string[] args)
         {
 
-
             //decalre first integer
-            Console.WriteLine("give first number");
+            Console.WriteLine("give first intger");
 
             string userinput = Console.ReadLine();
             int intvalue = Convert.ToInt32(userinput);
 
             //second integer
-            Console.WriteLine("give second number");
+            Console.WriteLine("give second integer");
 
             string userinput2 = Console.ReadLine();
             int intvalue2 = Convert.ToInt32(userinput2);

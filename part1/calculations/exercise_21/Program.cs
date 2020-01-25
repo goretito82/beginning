@@ -22,7 +22,7 @@ namespace exercise_21
             Console.WriteLine("Answer is " + userinput + "+" + userinput2);
             
             //give answer as a double
-            double A = intvalue + intvalue2;
+            double A = intvalue + intvalue2 / 2;
             
             Console.WriteLine(A);
 

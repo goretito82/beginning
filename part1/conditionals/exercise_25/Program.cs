@@ -6,8 +6,19 @@ namespace exercise_25
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+            
+            //declare integer
+            Console.WriteLine("Give a number");
+            string userinput = Console.ReadLine();
+            int intvalue = Convert.ToInt32(userinput);
+
+            Console.WriteLine("your number " + intvalue);
+
+            if (intvalue == 1984)
+            {
+                Console.WriteLine(" or well");
+            }
+        }
 
     }
-  }
 }

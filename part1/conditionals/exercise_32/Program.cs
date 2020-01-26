@@ -15,13 +15,12 @@ namespace exercise_32
             // declare string
             Console.WriteLine("Speak, friend and enter");
             string userinput = Console.ReadLine();
-           
-            
-         
 
-            bool mellon = true;
+
+
+            string a = "mellon";
             
-            if (mellon)
+            if (userinput == a)
 
             {
                 Console.WriteLine("welcome, friend ");

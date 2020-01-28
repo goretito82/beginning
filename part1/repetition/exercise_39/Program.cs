@@ -6,31 +6,31 @@ namespace exercise_39
   {
     public static void Main(string[] args)
     {
-            
+          
 
+            int sum = 0;
+            //readNumbers = readNumbers + 0;
             while (true)
-            {
+                {
+                Console.WriteLine("Give a number 0 quits");
 
-                // Ask for integers
-                Console.WriteLine("Input an integer, 0 quits");
-                // Read user input
                 int number = Convert.ToInt32(Console.ReadLine());
-                // If the input is 0, exit the loop
+
+        
+
                 if (number == 0)
                 {
                     break;
                 }
-                //int sum = 0;
-                //int counter = 1;
 
-                Console.WriteLine("sum is "  + number);
+                
+                    //add numbera
+                    sum = number + sum ;
+                
 
-         
+                }
 
-
-            }
-                // Print the amount of 1s from input
-                //Console.WriteLine("total sum of numbers: ");
-            }
+                Console.WriteLine("the total sum is " + sum);
+        }
   }
 }

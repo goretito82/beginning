@@ -2,17 +2,20 @@
 
 namespace exercise_49
 {
-  class Program
-  {
-    public static void Main(string[] args)
+    class Program
     {
-      // Call your method here:
- 
-    }
+        public static void Main(string[] args) =>
+            //call method here
+            Printphrase();
 
-    // Write your method here:
-    public static void PrintPhrase() {
 
+        public static void Printphrase()
+        {
+            Console.WriteLine("In a hole in the ground there lived a method");
+        }
+
+           
+    
     }
-  }
-}
+   }
+

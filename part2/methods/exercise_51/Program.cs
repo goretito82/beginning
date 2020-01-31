@@ -6,8 +6,8 @@ namespace exercise_51
   {
     public static void Main(String[] args)
     {
-      // Call your method here:
-
+            // Call your method here:
+            printuntilnumber(5);       
 
     }
 

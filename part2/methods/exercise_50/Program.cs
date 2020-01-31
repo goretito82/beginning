@@ -7,24 +7,28 @@ namespace exercise_50
         public static void Main(string[] args)
         {
 
-            int end = 1;
-            for (int i=0; i < end; i++)
+        
 
-            Console.Write(" enter number ");
+                Console.Write(" enter number ");
             int number = Convert.ToInt32(Console.ReadLine());
 
-           
-                while (true)           
+            int i = 0;
+            while (i < number)
+            {
+                Console.WriteLine();
+                i++;
+
                 Printphrase();
-            
+            }
 
         }
 
         public static void Printphrase()
-               
+
         {
             Console.WriteLine("In a hole in the ground there lived a method!");
         }
+
     }
 
  }

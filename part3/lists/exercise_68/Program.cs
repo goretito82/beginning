@@ -1,29 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 
-
-namespace exercise_62
+namespace exercise_68
 {
   class Program
   {
     public static void Main(string[] args)
     {
-      List<string> list = new List<string>();
+      List<int> list = new List<int>();
       while (true)
       {
-        string input = Console.ReadLine();
-        if (input == "")
+        int input = Convert.ToInt32(Console.ReadLine());
+        if (input == -1)
         {
           break;
         }
-
         list.Add(input);
       }
 
-      // BEGIN SOLUTION
-      Console.WriteLine(list[0]);
-      // END SOLUTION
     }
-
   }
 }

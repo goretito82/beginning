@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-
-namespace exercise_62
+namespace exercise_74
 {
   class Program
   {
@@ -16,14 +15,10 @@ namespace exercise_62
         {
           break;
         }
-
         list.Add(input);
       }
-
-      // BEGIN SOLUTION
-      Console.WriteLine(list[0]);
-      // END SOLUTION
+      
     }
-
   }
 }
+

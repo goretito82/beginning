@@ -22,7 +22,7 @@ namespace exercise_73
         sum += input;
         Console.WriteLine("sum " + sum);
       }
-      
+              
     
     }
   }

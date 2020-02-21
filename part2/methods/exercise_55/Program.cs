@@ -4,12 +4,18 @@ namespace exercise_55
 {
   class Program
   {
-    public static void Main(String[] args)
-    {
+        public static void Main(String[] args)
+        {
+            //call method
 
-    }
+           Console.WriteLine (NumberUno());
+        }
 
-    // Write your method here:
+        // Write your method here:
+        public static int NumberUno()
+        {
 
-  }
-}
+            return 1;
+        }
+   }
+ }

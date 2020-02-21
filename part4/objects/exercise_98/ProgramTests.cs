@@ -12,7 +12,11 @@ namespace ProgramTests
   {
 
     [Test]
+<<<<<<< HEAD
     public void TestFileProductExists()
+=======
+    public void TestFileWhistleExists()
+>>>>>>> 88973343e8c79c90bd5caa4532095132873f9374
     {
       Assert.IsTrue(File.Exists("../../../Product.cs"), "You haven't created the file yet");
     }

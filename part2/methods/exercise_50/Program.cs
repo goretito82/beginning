@@ -2,17 +2,35 @@
 
 namespace exercise_50
 {
-  class Program
-  {
-    public static void Main(string[] args)
+    class Program
     {
-      // Call your method here:
- 
+        public static void Main(string[] args)
+        {
+
+        
+
+            Console.Write(" enter number ");
+            int number = Convert.ToInt32(Console.ReadLine());
+
+            int i = 0;
+            while (i < number)
+            {
+                Console.WriteLine();
+                i++;
+
+                Printphrase();
+            }
+
+        }
+
+        public static void Printphrase()
+
+        {
+            Console.WriteLine("In a hole in the ground there lived a method!");
+        }
+
     }
 
-    // Write your method here:
-    public static void PrintPhrase() {
+ }
 
-    }
-  }
-}
+

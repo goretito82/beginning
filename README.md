@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Where to begin
 
 Before you do this course, it is advised to do the course for command line and version control first: https://centria.github.io/console/. This gives you tools to learn how to create your own Git repository and how to use it.
@@ -6,6 +7,8 @@ The course material for **this course** is at https://centria.github.io/basic-co
 
 To do the exercises, you need [Dotnet Core](https://dotnet.microsoft.com/download) and a decent editor, such as [Visual Studio Code](https://code.visualstudio.com/). You can use any editor, but the instructions are written with VSC in mind.
 
+=======
+>>>>>>> 88973343e8c79c90bd5caa4532095132873f9374
 ## How to run exercises
 
 In the exercise folder, run the command **dotnet run** to run your program. To see if your program does what it's supposed to, run **dotnet test**. When all the tests pass, you have done the exercise as intended.
@@ -21,12 +24,19 @@ The deadlines are every Sunday.
 | 1  | 26.01.2020 at 23:59| 40        |
 | 2  | 02.02.2020 at 23:59| 31        |
 | 3  | 09.02.2020 at 23:59| 31        |
+<<<<<<< HEAD
 | 4  | 16.02.2020 at 23:59| 29        |
 | 5  | 01.03.2020 at 23:59| 22        |
 | 6  | 08.03.2020 at 23:59| XX        |
 
 NOTICE! Ther has been extension to deadlines 5 and 6.
 
+=======
+| 4  | 16.02.2020 at 23:59| XX        |
+| 5  | 23.02.2020 at 23:59| XX        |
+| 6  | 01.03.2020 at 23:59| XX        |
+
+>>>>>>> 88973343e8c79c90bd5caa4532095132873f9374
 The exercises might be in multiple sections **in the instructions**, to make it easier to comprehend. In the end, you should still have **only one program per exercise** to return in such case.   
 
 Each section is counted separately, when calculating the total amount of exercises done. That is why they are calculated in the total of the table above.
@@ -1436,7 +1446,11 @@ Modify the program so that instead of the first value, the program prints the su
 
 #### Exercise_64
 
+<<<<<<< HEAD
 There is a program that uses a list in the exercise template. Modify it so that its execution always produces the error **ArgumentOutRangeException**. The user should not have to give any inputs to the program (e.g. write something on the keyboard)
+=======
+There is a program that uses a list in the exercise template. Modify it so that its execution always produces the error ArgumentOutRangeException. The user should not have to give any inputs to the program (e.g. write something on the keyboard)
+>>>>>>> 88973343e8c79c90bd5caa4532095132873f9374
 
 #### Exercise_65
 
@@ -1804,6 +1818,7 @@ RemoveLast(strings);
 strings.ForEach(Console.WriteLine);
 ```
 
+<<<<<<< HEAD
 ```console
 First
 Second
@@ -1812,6 +1827,8 @@ First
 ```
 
 
+=======
+>>>>>>> 88973343e8c79c90bd5caa4532095132873f9374
 ## Arrays
 
 #### Exercise_78
@@ -2260,7 +2277,11 @@ Create a class **Product** that represents a store product. The product should h
 
 The class should have:
 
+<<<<<<< HEAD
 - the constructor **public Product(string name, double price, int quantity)**
+=======
+- the constructor **public Product (string name, double price, int quantity)**
+>>>>>>> 88973343e8c79c90bd5caa4532095132873f9374
 - a method **public void PrintProduct()** that prints product information in the following format:
 
 ```console
@@ -2269,6 +2290,7 @@ Banana: price 1.1: 13 pcs
 
 The output above is based on the product being assigned the name banana, with a price of 1.1, and a quantity of 13 .
 
+<<<<<<< HEAD
 #### Exercise_99
 
 This exercise consists of multiple sections. Each section corresponds to one exercise point.
@@ -3869,3 +3891,5 @@ True
 False
 0.00e
 ```
+=======
+>>>>>>> 88973343e8c79c90bd5caa4532095132873f9374

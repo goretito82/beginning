@@ -9,7 +9,7 @@ namespace exercise_19
             
 
             // declare first int
-            Console.WriteLine("First Integer ");
+            Console.WriteLine("Give the first number! ");
             // Declare and assign the input as string
             string userInput = Console.ReadLine();
             // Convert string to integer type
@@ -18,7 +18,7 @@ namespace exercise_19
             
 
             // declare second int
-            Console.WriteLine("Second Integer ");
+            Console.WriteLine("Give the second number! ");
             // Declare and assign the input as string
             string userInput2 = Console.ReadLine();
             // Convert string to integer type

@@ -12,7 +12,7 @@ namespace exercise_09
           string message = Console.ReadLine();
           Console.WriteLine("That's interesting, tell me more");
           string greeting = Console.ReadLine();
-          Console.WriteLine("Thanks for sharing!");
+          Console.WriteLine("Thank you for sharing!");
 
 
         }

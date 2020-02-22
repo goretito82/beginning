@@ -18,7 +18,7 @@ namespace exercise_18
 
             Console.WriteLine("You gave " + intValue);
 
-            Console.Write("Give second number! ");
+            Console.Write("Give the second number! ");
 
             // Assign new value to userInput
             userInput = Console.ReadLine();

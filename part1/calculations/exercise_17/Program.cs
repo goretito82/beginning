@@ -9,7 +9,7 @@ namespace exercise_17
 
           
 
-            Console.Write("Give First integer value: ");
+            Console.Write("Give the first number! ");
 
             // Declare and assign the input as string
             string userInput = Console.ReadLine();
@@ -17,9 +17,9 @@ namespace exercise_17
             // Convert string to integer type
             int intValue = Convert.ToInt32(userInput);
 
-            Console.WriteLine("First Number " + intValue);
+            Console.WriteLine("first Number " + intValue);
 
-            Console.Write("Give double value: ");
+            Console.Write("Give the second number! ");
 
             // Assign new value to userInput
             userInput = Console.ReadLine();

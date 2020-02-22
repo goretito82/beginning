@@ -6,10 +6,10 @@ namespace exercise_13
   {
     public static void Main(string[] args)
     {
-    Console.Write("Give double value: ");
+    Console.Write("Give a number! ");
 
 // Assign new value to userInput
-userInput = Console.ReadLine();
+ string userInput = Console.ReadLine();
 
 // Convert string to double type
 double doubleValue = Convert.ToDouble(userInput);

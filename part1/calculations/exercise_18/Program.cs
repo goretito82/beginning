@@ -8,7 +8,7 @@ namespace exercise_18
     {
 
             // Write your code here:
-            Console.Write("Give first value: ");
+            Console.Write("Give the first number! ");
 
             // Declare and assign the input as string
             string userInput = Console.ReadLine();
@@ -18,7 +18,7 @@ namespace exercise_18
 
             Console.WriteLine("You gave " + intValue);
 
-            Console.Write("Give second value: ");
+            Console.Write("Give second number! ");
 
             // Assign new value to userInput
             userInput = Console.ReadLine();
@@ -28,7 +28,7 @@ namespace exercise_18
 
             Console.WriteLine("You gave " + doubleValue);
 
-            Console.Write("Give third value: ");
+            Console.Write("Give third number! ");
 
             // Declare and assign the input as string
             string userInput1 = Console.ReadLine();

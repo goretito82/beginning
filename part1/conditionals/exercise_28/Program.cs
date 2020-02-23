@@ -8,17 +8,17 @@ namespace exercise_28
     {
             // declare age
            
-            Console.WriteLine("how old are you");
+            Console.WriteLine("How old are you?");
             string userinput = Console.ReadLine();
             int intvalue = Convert.ToInt32(userinput);
 
             if (intvalue < 18)
             {
-                Console.WriteLine("you are underage!");
+                Console.WriteLine("You're under age!");
             }
             else
             {
-                Console.WriteLine("You are an adult! ");
+                Console.WriteLine("You're an adult!");
             }
         }
   }

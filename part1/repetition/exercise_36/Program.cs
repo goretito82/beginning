@@ -8,22 +8,22 @@ namespace exercise_36
     {
             while (true)
             {
-                Console.WriteLine("Input a positive integer, 0 quits");
+                Console.WriteLine("Give a number:");
                 int number = Convert.ToInt32(Console.ReadLine());
                 if (number == 0)
                 {
                     break;
                 }
-                if (number < 0)
+                else if (number < 0)
                 {
-                    Console.WriteLine("that is negative!");
+                    Console.WriteLine("That is negative");
                     continue;
                 }
 
-                Console.WriteLine("You gave " + number * 2);
+               Console.WriteLine(number*2);
             }
 
-            Console.WriteLine("All done!");
+          
 
         }
   }

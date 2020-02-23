@@ -8,7 +8,7 @@ namespace exercise_35
     {
             while (true)
             {
-                Console.WriteLine("Input a integer, 42 quits");
+                Console.WriteLine("Give a number:");
                 int number = Convert.ToInt32(Console.ReadLine());
                 if (number == 42)
                 {
@@ -16,15 +16,10 @@ namespace exercise_35
                 }
                 if (number >1)
                 {
-                   Console.WriteLine("Not the desired integer!");
+                
                    continue;
               }
-
-                Console.WriteLine("You gave " + number);
             }
-
-            Console.WriteLine("All done!");
-
+          }
         }
-  }
-}
+    }

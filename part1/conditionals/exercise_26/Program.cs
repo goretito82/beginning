@@ -7,15 +7,15 @@ namespace exercise_26
     public static void Main(string[] args)
     {
             //declare integer
-            Console.WriteLine("Give your age");
+            Console.WriteLine("Give your age:");
             string userinput = Console.ReadLine();
             int intvalue = Convert.ToInt32(userinput);
 
-            Console.WriteLine("your age is " + intvalue);
+            Console.WriteLine(intvalue);
 
-            if (intvalue < 1900)
+            if (intvalue<1900)
             {
-                Console.WriteLine("you're old");
+                Console.WriteLine("You're old");
             }
         }
   }

@@ -9,13 +9,13 @@ namespace exercise_23
 
 
             //decalre first integer
-            Console.WriteLine("give first intger");
+            Console.WriteLine("Give the first number!");
 
             string userinput = Console.ReadLine();
             int intvalue = Convert.ToInt32(userinput);
 
             //second integer
-            Console.WriteLine("give second integer");
+            Console.WriteLine("Give the second number!");
 
             string userinput2 = Console.ReadLine();
             int intvalue2 = Convert.ToInt32(userinput2);
@@ -31,16 +31,16 @@ namespace exercise_23
         divide   = intvalue / intvalue2;
 
             //add number
-            Console.WriteLine(userinput + "+" + userinput2 + "=" + add);
+            Console.WriteLine(userinput + " + " + userinput2 + " = " + add);
 
             // subtract number
-            Console.WriteLine(userinput + "-" + userinput2 + "=" + sub);
+            Console.WriteLine(userinput + " - " + userinput2 + " = " + sub);
 
             // multiply number
-            Console.WriteLine(userinput + "*" + userinput2 + "=" + multiply);
+            Console.WriteLine(userinput + " * " + userinput2 + " = " + multiply);
 
             // divide number
-            Console.WriteLine(userinput + "/" + userinput2 + "=" + divide);
+            Console.WriteLine(userinput + " / " + userinput2 + " = " + divide);
 
 
 

@@ -9,7 +9,7 @@ namespace exercise_19
             
 
             // declare first int
-            Console.WriteLine("Give the first number! ");
+            Console.WriteLine("Give the first number!");
             // Declare and assign the input as string
             string userInput = Console.ReadLine();
             // Convert string to integer type
@@ -18,15 +18,16 @@ namespace exercise_19
             
 
             // declare second int
-            Console.WriteLine("Give the second number! ");
+            Console.WriteLine("Give the second number!");
             // Declare and assign the input as string
             string userInput2 = Console.ReadLine();
             // Convert string to integer type
             int intValue2 = Convert.ToInt32(userInput2);
 
-           Console.WriteLine("sum is " + userInput + "+" + userInput2);
+           Console.WriteLine("The sum is ");
+           Console.Write(intvalue + intValue2);
 
-            Console.Write(intvalue + intValue2);
+   
            
         }
     }

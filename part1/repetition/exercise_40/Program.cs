@@ -11,11 +11,9 @@ namespace exercise_40
             //readNumbers = readNumbers + 0;
             while (true)
             {
-                Console.WriteLine("Give a number 0 quits");
+                Console.WriteLine("Give a number:");
 
                 int number = Convert.ToInt32(Console.ReadLine());
-
-
 
                 if (number == 0)
                 {
@@ -28,14 +26,11 @@ namespace exercise_40
                 }    
                     //add numbera
                     sum = number + sum;
-
-
-
             }
             //print total sum
-            Console.WriteLine("the total sum is " + sum);
+            Console.WriteLine("Total sum of numbers: " + sum);
             //print total number
-            Console.WriteLine("Amount of numbers: " + sum2);
+            Console.WriteLine("Total amount of numbers: " + sum2);
 
         }
   }

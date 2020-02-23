@@ -8,10 +8,7 @@ namespace exercise_45
     {
             int start = 0;
 
-            Console.WriteLine("Please input integer");
-
-
-            while (true)
+           while (true)
             {
                 int input = Convert.ToInt32(Console.ReadLine());
 
@@ -22,17 +19,8 @@ namespace exercise_45
             for (int i = start; i < input + 1; i++)
                 {
                     Console.WriteLine(i);
-                }
-            
-            
-            
-            
-            
-            
+                }      
             }
-       
-
-
         }
   }
 }

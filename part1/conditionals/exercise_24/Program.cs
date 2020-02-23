@@ -9,16 +9,16 @@ namespace exercise_24
             
 
             //declare integer
-            Console.WriteLine("Input integer");
+            Console.WriteLine("Your speed:");
             string userinput = Console.ReadLine();
             int intvalue = Convert.ToInt32(userinput);
 
-            Console.WriteLine("your speed is " + intvalue);
+            Console.WriteLine(intvalue);
          
 
             if (intvalue > 120)
             {
-                Console.WriteLine("you are speeding" + intvalue);
+                Console.WriteLine("Speeding!"+intvalue);
             }
 
         }

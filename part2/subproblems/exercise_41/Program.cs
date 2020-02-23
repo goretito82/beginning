@@ -11,27 +11,21 @@ namespace exercise_41
             while (true)
             {
               //input integer convert it
-         Console.WriteLine(" Please put in an integer, 0 exits ");
+        
 
-        int intvalue = Convert.ToInt32(Console.ReadLine());
-
-
-
+        int intvalue=Convert.ToInt32(Console.ReadLine());
 
                 if (intvalue == 0)
                 {
                     break;
-
                 }
 
-                if (intvalue > 1)
+                if (intvalue>1)
                 {
-
-
-                    sum = intvalue * 2;
+                    sum=intvalue*2;
                 }
 
-                Console.WriteLine("Square of number is " + sum);
+                Console.WriteLine(sum);
 
             }
 

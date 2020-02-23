@@ -11,25 +11,25 @@ namespace exercise_22
             Console.WriteLine("Give the first number!");
 
             string userinput = Console.ReadLine();
-            int intvalue = Convert.ToInt32(userinput);
+           double dvalue = Convert.ToDouble(userinput);
 
             //second integer
             Console.WriteLine("Give the second number!");
 
             string userinput2 = Console.ReadLine();
-            int intvalue2 = Convert.ToInt32(userinput2);
+            double dvalue2 = Convert.ToDouble(userinput2);
 
             //third integer
             Console.WriteLine("Give the third number!");
             string userinput3 = Console.ReadLine();
-            int intvalue3 = Convert.ToInt32(userinput3);
+            double dvalue3 = Convert.ToDouble(userinput3);
 
-            Console.WriteLine(userinput+"+"+userinput2+"+"+userinput3);
+            //Console.WriteLine(userinput+"+"+userinput2+"+"+userinput3);
 
             //give answer as a double
-            double A = intvalue+intvalue2+intvalue3 /3;
+            double A = (dvalue+dvalue2+dvalue3) /3;
 
-            Console.WriteLine("The average is"+A);
+            Console.WriteLine("The average is " +A);
 
         }
   }

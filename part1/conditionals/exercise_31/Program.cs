@@ -8,20 +8,20 @@ namespace exercise_31
     {
             
             // declare an int
-            Console.WriteLine("Give a number ");
+            Console.WriteLine("Give a number:");
             string userinput = Console.ReadLine();
             int intvalue = Convert.ToInt32(userinput);
 
             if (intvalue % 2 == 0)
             {
-                Console.WriteLine("is even " + userinput);
+                Console.WriteLine("It is even.");
             }
             
             else
             
             { 
 
-                Console.WriteLine("number is odd " + userinput);
+                Console.WriteLine("It is odd.");
             }
 
 

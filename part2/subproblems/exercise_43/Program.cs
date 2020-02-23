@@ -9,7 +9,7 @@ namespace exercise_43
             while (true)
             {
                 //input integer convert it
-                Console.WriteLine(" Please put in an integer, 0 exits ");
+               // Console.WriteLine(" Please put in an integer, 0 exits ");
 
                 int intvalue = Convert.ToInt32(Console.ReadLine());
                 //halt prog
@@ -24,13 +24,13 @@ namespace exercise_43
 
                     int number = intvalue * -1;
 
-                    Console.WriteLine("Results " + number);
+                    Console.WriteLine(number);
                     continue;
                 }
                     if (intvalue > 1)
                     {
                         int number2 = intvalue;
-                        Console.WriteLine("results " + number2);
+                        Console.WriteLine(number2);
                     }
 
                  

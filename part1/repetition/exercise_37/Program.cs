@@ -13,7 +13,7 @@ namespace exercise_37
             {
 
                 // Ask for integers
-                Console.WriteLine("Input an integer, 0 quits");
+                Console.WriteLine("Give a number:");
                 // Read user input
                
                 int number = Convert.ToInt32(Console.ReadLine());
@@ -31,7 +31,7 @@ namespace exercise_37
             }
 
             // Print the amount of numbers
-            Console.WriteLine("Amount of numbers: " + sum);
+            Console.WriteLine("Total amount of numbers: " + sum);
             //add the numbers
             
            

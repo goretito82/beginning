@@ -23,7 +23,7 @@ namespace exercise_48
 
                 if (input == -1)
                 {
-                    Console.WriteLine("thnk bye!");
+                    Console.WriteLine("thx Bye!");
                     break;
                 }
 
@@ -35,22 +35,16 @@ namespace exercise_48
 
                 else _ = (input);
                 oddnum++;
-             
-
-            
+                        
                 sum += input;
                 totalnum++;
-                mean = sum / totalnum;
-
-               
-            }
-
-            
+                mean = sum / totalnum;              
+            }   
             Console.WriteLine("Sum: " + sum);
-            Console.WriteLine("total numbers " + totalnum);
-            Console.WriteLine("mean average " + mean);
-            Console.WriteLine("even number " + evennum);
-            Console.WriteLine("odd number " + oddnum);
+            Console.WriteLine("Numbers " + totalnum);
+            Console.WriteLine("Average " + mean);
+            Console.WriteLine("Even " + evennum);
+            Console.WriteLine("Odd " + oddnum);
 
 
         }

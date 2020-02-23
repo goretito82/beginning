@@ -9,22 +9,22 @@ namespace exercise_33
             
             
             // declare 1st string
-            Console.WriteLine("Give first string ");
+            Console.WriteLine("Give the first string:");
             string userinput = Console.ReadLine();
 
             // declare 2nd string
-            Console.WriteLine("Give second string ");
+            Console.WriteLine("Give the second string:");
              string userinput2 = Console.ReadLine();
 
            
 
             if (userinput == userinput2) 
             {
-                Console.WriteLine("echo");
+                Console.WriteLine("Echo!");
             }
             else
             {
-                Console.WriteLine("nope");
+                Console.WriteLine("Nope!");
             }
 
 

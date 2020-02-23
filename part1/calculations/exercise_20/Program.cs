@@ -7,13 +7,13 @@ namespace exercise_20
     public static void Main(string[] args)
     {
             //decalre first integer
-            Console.WriteLine("give first number");
+            Console.WriteLine("Give the first number");
 
             string userinput = Console.ReadLine();
             int intvalue = Convert.ToInt32(userinput);
 
             //second integer
-            Console.WriteLine("give second number");
+            Console.WriteLine("Give the second number");
 
             string userinput2 = Console.ReadLine();
             int intvalue2 = Convert.ToInt32(userinput2);

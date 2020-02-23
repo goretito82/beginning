@@ -8,28 +8,28 @@ namespace exercise_22
     {
 
             //decalre first integer
-            Console.WriteLine("give first intger");
+            Console.WriteLine("Give the first number!");
 
             string userinput = Console.ReadLine();
             int intvalue = Convert.ToInt32(userinput);
 
             //second integer
-            Console.WriteLine("give second integer");
+            Console.WriteLine("Give the second number!");
 
             string userinput2 = Console.ReadLine();
             int intvalue2 = Convert.ToInt32(userinput2);
 
             //third integer
-            Console.WriteLine("give third integer");
+            Console.WriteLine("Give the third number!");
             string userinput3 = Console.ReadLine();
             int intvalue3 = Convert.ToInt32(userinput3);
 
-            Console.WriteLine("Answer is " + userinput + "+" + userinput2 + "+" + userinput3);
+            Console.WriteLine(userinput+"+"+userinput2+"+"+userinput3);
 
             //give answer as a double
-            double A = intvalue + intvalue2 + intvalue3 /3;
+            double A = intvalue+intvalue2+intvalue3 /3;
 
-            Console.WriteLine(A);
+            Console.WriteLine("The average is"+A);
 
         }
   }

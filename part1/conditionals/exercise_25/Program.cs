@@ -8,15 +8,15 @@ namespace exercise_25
     {
             
             //declare integer
-            Console.WriteLine("Give a number");
+            Console.WriteLine("Give a number:");
             string userinput = Console.ReadLine();
             int intvalue = Convert.ToInt32(userinput);
 
-            Console.WriteLine("your number " + intvalue);
+            Console.WriteLine(intvalue);
 
-            if (intvalue == 1984)
+            if (intvalue==1984)
             {
-                Console.WriteLine(" or well");
+                Console.WriteLine("Orwell");
             }
         }
 

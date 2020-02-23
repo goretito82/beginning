@@ -10,14 +10,13 @@ namespace exercise_34
             {
                 Console.WriteLine("Do you want to continue?");
                 string input = Console.ReadLine();
-               
+        
                 if (input == "no")
                 {
                     break;
                 }
-                Console.WriteLine("Let's keep going!");
             }
-            Console.WriteLine("All done!");
+         
         }
   }
 }

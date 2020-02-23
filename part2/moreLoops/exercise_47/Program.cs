@@ -12,28 +12,22 @@ namespace exercise_47
 
             while (true)
             {
-                Console.WriteLine("Please where to stop");
+                Console.WriteLine("Where to?");
                 int input = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("please input where to begin");
+                Console.WriteLine("Where from?");
                 int input2 = Convert.ToInt32(Console.ReadLine());
-
 
                 if (input == 0)
                 {
                     break;
                 }
-                
                 while (input2 < input)
                 {
                     Console.WriteLine(number + input2 + 1);
                     input2++;
                 }
-
-
             }
-
-
         }
     }
 }

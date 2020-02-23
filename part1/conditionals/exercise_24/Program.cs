@@ -13,12 +13,9 @@ namespace exercise_24
             string userinput = Console.ReadLine();
             int intvalue = Convert.ToInt32(userinput);
 
-            Console.WriteLine(intvalue);
-         
-
-            if (intvalue > 120)
+           if (intvalue > 120)
             {
-                Console.WriteLine("Speeding!"+intvalue);
+                Console.WriteLine("Speeding!");
             }
 
         }

@@ -8,8 +8,6 @@ namespace exercise_46
     {
             
             int number = 0;
-
-            Console.WriteLine("Please input integer less than 100");
             int input = Convert.ToInt32(Console.ReadLine());
 
             while (input < 100)

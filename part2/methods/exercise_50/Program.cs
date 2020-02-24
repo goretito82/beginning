@@ -6,10 +6,7 @@ namespace exercise_50
     {
         public static void Main(string[] args)
         {
-
-        
-
-            Console.Write(" enter number ");
+            Console.Write("How many times?");
             int number = Convert.ToInt32(Console.ReadLine());
 
             int i = 0;
@@ -17,16 +14,13 @@ namespace exercise_50
             {
                 Console.WriteLine();
                 i++;
-
-                Printphrase();
+                 Printphrase();
             }
-
-        }
-
+       }
         public static void Printphrase()
 
         {
-            Console.WriteLine("In a hole in the ground there lived a method!");
+            Console.WriteLine("In a hole in the ground there lived a method");
         }
 
     }

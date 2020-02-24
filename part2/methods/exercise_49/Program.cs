@@ -4,10 +4,11 @@ namespace exercise_49
 {
     class Program
     {
-        public static void Main(string[] args) =>
+        public static void Main(string[] args) 
+        {
             //call method here
             Printphrase();
-          
+        } 
 
         public static void Printphrase()
         {

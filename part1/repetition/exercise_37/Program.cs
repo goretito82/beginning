@@ -23,10 +23,10 @@ namespace exercise_37
                     break;
                 }
                 // If the input is 1, add to count
-                if (number > 1)
+                if (number >= 1)
                 {
                     // Increase the value of numbers by 1
-                    sum += 1;
+                    sum = sum += 1;
                 }
             }
 

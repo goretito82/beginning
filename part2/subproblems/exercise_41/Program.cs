@@ -20,15 +20,13 @@ namespace exercise_41
                     break;
                 }
 
-                if (intvalue>1)
+                if (intvalue>=1)
                 {
                     sum=intvalue*2;
                 }
-
                 Console.WriteLine(sum);
 
             }
-
      }
   }
 }

@@ -1,38 +1,4 @@
-<<<<<<< HEAD
-﻿using System;
-
-namespace exercise_61
-{
-  class Program
-  {
-    public static void Main(String[] args)
-    {
-
-    }
-
-    public static void PrintStars(int number)
-    {
-
-    }
-
-    public static void PrintSpaces(int number)
-    {
-
-    }
-
-    public static void PrintRightTriangle(int size)
-    {
-
-    }
-
-    public static void ChristmasTree(int height)
-    {
-
-    }
-  }
-}
-=======
-﻿using System;
+using System;
 
 namespace exercise_61
 {
@@ -94,4 +60,3 @@ namespace exercise_61
     }
 
 
->>>>>>> 88973343e8c79c90bd5caa4532095132873f9374

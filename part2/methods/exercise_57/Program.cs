@@ -15,8 +15,8 @@ namespace exercise_57
 
     public static void Main(String[] args)
     {
-      int answer = Sum(444, 344, 666, 111);
-      Console.WriteLine("Sum: " + answer);
+      int answer = Sum(4, 3, 6, 1);
+      Console.WriteLine("Sum: " +answer);
     }
   }
 }

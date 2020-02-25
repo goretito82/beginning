@@ -2,22 +2,19 @@
 
 namespace exercise_56
 {
-  class Program
-  {
-    public static void Main(String[] args) 
-{
-  int beginning = 1;
-  int end = 5;
+    class Program
+    {
+        public static void Main(string[] args) 
+        {
+            //call method here
+            Word();
+        } 
 
-  PrintStarts(beginning, end);
-}
+        public static void Word()
+        {
+            Console.WriteLine("In a hole in the ground there lived a method");
+        }  
+    }
+   }
 
-public static void PrintStars(int beginning, int end) {
-  while (beginning < end) {
-      Console.Write("*");
-      beginning++; // equal to beginning = beginning + 1
-  }
-}
 
-  }
-}

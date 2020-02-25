@@ -15,7 +15,6 @@ namespace exercise_58
         {
             // write your code here
             
-
             return Math.Min(number1, number2);
 
         

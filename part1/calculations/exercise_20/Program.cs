@@ -18,9 +18,9 @@ namespace exercise_20
             string userinput2 = Console.ReadLine();
             int intvalue2 = Convert.ToInt32(userinput2);
 
-            Console.WriteLine(userinput + " * " + userinput2);
+            Console.Write(userinput + " * " + userinput2 + " = ");
             
-            Console.Write(intvalue * intvalue2);
+            Console.WriteLine(intvalue * intvalue2);
 
 
 

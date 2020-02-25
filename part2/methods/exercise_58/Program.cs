@@ -6,7 +6,7 @@ namespace exercise_58
   {
     public static void Main(String[] args)
     {
-      int answer = Smallest(889, 4367);
+      int answer = Smallest(2, 7);
       Console.WriteLine("Smallest: " + answer);
     }
 

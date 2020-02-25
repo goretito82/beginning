@@ -6,7 +6,7 @@ namespace exercise_59
   {
     public static void Main(String[] args)
     {
-      int answer = Greatest(243, 7234, 3243);
+      int answer = Greatest(2, 7, 3);
       Console.WriteLine("Greatest: " + answer);
     }
 

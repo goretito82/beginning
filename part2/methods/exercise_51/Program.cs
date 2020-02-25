@@ -10,19 +10,15 @@ namespace exercise_51
 
             int number = Convert.ToInt32(Console.ReadLine());
             PrintUntilNumber(number);
-
-
         }
 
         // Write your method here:
-        public static void PrintUntilNumber(int numero)
+        public static void PrintUntilNumber(int number)
         {
-            for (int i = 1; i < numero; i++)
+            for (int i = 1; i <= number; i++)
             {
                 Console.WriteLine(i);
-            }
-
-                    
+            }                    
     }
   }
 }

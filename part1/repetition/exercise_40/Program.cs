@@ -28,9 +28,9 @@ namespace exercise_40
                     sum = number + sum;
             }
             //print total sum
-            Console.WriteLine("Total sum of numbers: " + sum);
+            Console.WriteLine("Total sum of numbers: " +sum);
             //print total number
-            Console.WriteLine("Total amount of numbers: " + sum2);
+            Console.WriteLine("Total amount of numbers: " +sum2);
 
         }
   }

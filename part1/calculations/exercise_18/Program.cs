@@ -39,8 +39,8 @@ namespace exercise_18
            // Console.WriteLine("You gave " + intValue1);
 
             //add the three integers
-            Console.WriteLine("The sum is");
-            Console.Write(intValue + doubleValue + intValue1);
+            Console.Write("The sum is ");
+            Console.WriteLine(intValue + doubleValue + intValue1);
 
         }
   }

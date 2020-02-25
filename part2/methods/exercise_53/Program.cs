@@ -7,7 +7,7 @@ namespace exercise_53
         public static void Main(String[] args)
         {
             // call method here
-            Division(9, 8);
+            Division(9.45 , 8.89);
         }
 
 

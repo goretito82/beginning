@@ -29,7 +29,7 @@ namespace exercise_42
                 {
                  int number = intvalue + intvalue2;
                  double squareroot = Math.Sqrt(number);
-                    Console.WriteLine(squareroot);
+                Console.WriteLine(squareroot);
                 }
             }
         }

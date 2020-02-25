@@ -10,21 +10,21 @@ namespace exercise_36
             {
                 Console.WriteLine("Give a number:");
                 int number = Convert.ToInt32(Console.ReadLine());
-                if (number == 0)
+                if (number < 0)
+                {
+                    Console.WriteLine("That is negative");
+                    
+                }
+               else if (number == 0)
                 {
                     break;
                 }
-                else if (number < 0)
+                else
                 {
-                    Console.WriteLine("That is negative");
-                    continue;
-                }
 
-               Console.WriteLine(number*2);
+               Console.WriteLine(number * 2);
             }
-
-          
-
-        }
+      }
+   }
   }
-}
+  }

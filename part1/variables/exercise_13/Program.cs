@@ -6,7 +6,7 @@ namespace exercise_13
   {
     public static void Main(string[] args)
     {
-    Console.Write("Give a number! ");
+    Console.WriteLine("Give a number!");
 
 // Assign new value to userInput
  string userInput = Console.ReadLine();

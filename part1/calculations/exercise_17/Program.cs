@@ -27,8 +27,8 @@ namespace exercise_17
             
            int intValue2 = Convert.ToInt32(userInput);
 
-            Console.WriteLine("The sum is");
-            Console.Write(intValue + intValue2);
+            Console.Write("The sum is ");
+            Console.WriteLine(intValue + intValue2);
            
         }
   }

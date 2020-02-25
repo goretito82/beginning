@@ -7,7 +7,7 @@ namespace exercise_54
         public static void Main(String[] args)
         {
             // Call your method here:
-            DivisibleByThreeInRange(1, 150);
+            DivisibleByThreeInRange(2,10);
         }
 
         // Write your method here:
@@ -17,8 +17,6 @@ namespace exercise_54
             for (int i = 1; i < end; i++)
             {
                 if (i % 3 == 0) 
-
-
                 Console.WriteLine(i);
             }
         }

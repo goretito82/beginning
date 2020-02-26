@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace exercise_64
@@ -20,11 +20,10 @@ namespace exercise_64
 
       foreach (string line in lines)
       {
-          Console.WriteLine(line[699]);
+        Console.WriteLine(line[699]);
       }
-           
+
     }
 
   }
 }
-

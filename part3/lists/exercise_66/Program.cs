@@ -18,6 +18,7 @@ namespace exercise_66
                  break;
                 }
                 list.Add(input);
+
             }
     }
   }

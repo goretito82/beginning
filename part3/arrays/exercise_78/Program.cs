@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 
@@ -27,53 +26,25 @@ namespace exercise_78
       // Implement here
       // asking for the two indices
       // and then swapping them
-
-
-      // DO NOT CHANGE THE FOLLOWING CODE!
-      Console.WriteLine("");
-      index = 0;
-      while (index < array.Length)
-      {
-        Console.WriteLine(array[index]);
-        index++;
-      }
-    }
-
-  }
-}
-
-
-=======
-﻿using System;
-using System.Collections.Generic;
-
-namespace exercise_78
+    
+            
+      Console.WriteLine("Give two indices to swap:");
+      int n = Convert.ToInt32(Console.ReadLine());
+      int t = Convert.ToInt32(Console.ReadLine());
+       int temp;
+if(n< array.Length && t< array.Length)
 {
-  class Program
-  {
-    public static void Main(string[] args)
-    {
-      // DO NOT CHANGE THE FOLLOWING CODE!
-      int[] array = new int[5];
-      array[0] = 1;
-      array[1] = 3;
-      array[2] = 5;
-      array[3] = 7;
-      array[4] = 9;
-
-      int index = 0;
-      while (index < array.Length)
-      {
-        Console.WriteLine(array[index]);
-        index++;
-      }
-      Console.WriteLine("");
-
-      // Implement here
-      // asking for the two indices
-      // and then swapping them
-
-
+temp = array[n];
+array[n] = array[t];
+array[t] = temp;
+}
+else
+{
+Console.WriteLine("Index must be less than array size");
+Console.ReadLine();
+} 
+    
+      
       // DO NOT CHANGE THE FOLLOWING CODE!
       Console.WriteLine("");
       index = 0;
@@ -88,4 +59,3 @@ namespace exercise_78
 }
 
 
->>>>>>> 88973343e8c79c90bd5caa4532095132873f9374

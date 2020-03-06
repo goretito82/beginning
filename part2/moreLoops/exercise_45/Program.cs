@@ -6,9 +6,21 @@ namespace exercise_45
   {
     public static void Main(string[] args)
     {
+            int start = 0;
 
-      // Write your code here:
+           while (true)
+            {
+                int input = Convert.ToInt32(Console.ReadLine());
 
-    }
+                if (input == 0)
+                {
+                    break;
+                }
+            for (int i = start; i < input + 1; i++)
+                {
+                    Console.WriteLine(i);
+                }      
+            }
+        }
   }
 }

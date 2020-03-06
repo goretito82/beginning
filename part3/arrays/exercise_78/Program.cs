@@ -26,8 +26,25 @@ namespace exercise_78
       // Implement here
       // asking for the two indices
       // and then swapping them
-
-
+    
+            
+      Console.WriteLine("Give two indices to swap:");
+      int n = Convert.ToInt32(Console.ReadLine());
+      int t = Convert.ToInt32(Console.ReadLine());
+       int temp;
+if(n< array.Length && t< array.Length)
+{
+temp = array[n];
+array[n] = array[t];
+array[t] = temp;
+}
+else
+{
+Console.WriteLine("Index must be less than array size");
+Console.ReadLine();
+} 
+    
+      
       // DO NOT CHANGE THE FOLLOWING CODE!
       Console.WriteLine("");
       index = 0;

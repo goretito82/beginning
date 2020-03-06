@@ -6,8 +6,15 @@ namespace exercise_12
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+   Console.WriteLine("Give a number!");
 
+// Declare and assign the input as string
+string userInput = Console.ReadLine();
+
+// Convert string to integer type
+int intValue = Convert.ToInt32(userInput);
+
+Console.WriteLine("You gave " + intValue);
     }
   }
 }

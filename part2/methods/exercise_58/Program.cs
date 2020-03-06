@@ -10,7 +10,18 @@ namespace exercise_58
       Console.WriteLine("Smallest: " + answer);
     }
 
-    // Write your method here:
-    
-  }
+        // Write your method here:
+        public static int Smallest(int number1, int number2)
+        {
+            // write your code here
+            
+            return Math.Min(number1, number2);
+
+        
+            
+            // do not print anything inside the method
+
+            // there must be a return command at the end
+        }
+    }
 }

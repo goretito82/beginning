@@ -6,9 +6,24 @@ namespace exercise_20
   {
     public static void Main(string[] args)
     {
+            //decalre first integer
+            Console.WriteLine("Give the first number!");
 
-      // Write your code here:
+            string userinput = Console.ReadLine();
+            int intvalue = Convert.ToInt32(userinput);
 
-    }
+            //second integer
+            Console.WriteLine("Give the second number!");
+
+            string userinput2 = Console.ReadLine();
+            int intvalue2 = Convert.ToInt32(userinput2);
+
+            Console.Write(userinput + " * " + userinput2 + " = ");
+            
+            Console.WriteLine(intvalue * intvalue2);
+
+
+
+        }
   }
 }

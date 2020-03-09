@@ -7,7 +7,12 @@ namespace exercise_83
   {
     public static void Main(string[] args)
     {
-
+    Console.WriteLine("Give a word: ");
+    string name = Console.ReadLine();
+ for(int i=1; i<4; i++)
+   {
+    Console.WriteLine(name);
+   }
 
     }
 
